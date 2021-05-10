@@ -1,1 +1,1 @@
-Changes and additions to the [[https://steamcommunity.com/sharedfiles/filedetails/?id=2150229170 | Youjo Senki Redux]] mod for Hearts of Iron 4
+Changes and additions to the [Youjo Senki Redux](https://steamcommunity.com/sharedfiles/filedetails/?id=2150229170)  mod for Hearts of Iron 4

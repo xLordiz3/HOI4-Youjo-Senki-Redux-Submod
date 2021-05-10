@@ -1,0 +1,27 @@
+spriteTypes = {
+
+    SpriteType = {
+        name = "GFX_USA_tech_orb_medium"
+        textureFile = "gfx/interface/technologies/USA_mage_equipment_0.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_USA_tech_orb2_medium"
+        textureFile = "gfx/interface/technologies/USA_mage_equipment_1.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_USA_tech_orb3_medium"
+        textureFile = "gfx/interface/technologies/USA_mage_equipment_1.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_USA_tech_orb4_medium"
+        textureFile = "gfx/interface/technologies/USA_mage_equipment_1.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_EMP_mage_flight_gear_medium"
+        textureFile = "gfx/interface/technologies/EMP_mage_flight_gear_0"
+    }
+}

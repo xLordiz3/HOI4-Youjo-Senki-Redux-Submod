@@ -1,0 +1,72 @@
+
+	shared_focus = {
+		id = RUS_expand_east
+		text = RUS_expand_east
+		icon = GFX_focus_generic_industry_1
+		cost = 4.00
+		x = 48
+		y = 0
+
+		completion_reward = {
+			516 = {
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+	shared_focus = {
+		id = RUS_expand_east_1
+		text = RUS_expand_east_1
+		icon = GFX_focus_generic_industry_1
+		cost = 4.00
+		prerequisite = {
+			focus = RUS_expand_east
+		}
+		relative_position_id = RUS_expand_east
+		x = -1
+		y = 1
+
+		completion_reward = {
+			516 = {
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+
+	shared_focus = {
+		id = RUS_expand_east_2
+		text = RUS_expand_east_2
+		icon = GFX_focus_generic_industry_1
+		cost = 4.00
+		prerequisite = {
+			focus = RUS_expand_east
+		}
+		relative_position_id = RUS_expand_east
+		x = 1
+		y = 1
+
+		completion_reward = {
+			644 = {
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}
+
+	shared_focus = {
+		id = RUS_ruralize_east
+		text = RUS_ruralize_east
+		icon = GFX_focus_generic_industry_1
+		cost = 4.00
+        prerequisite = {
+            focus = RUS_expand_east_1
+            focus = RUS_expand_east_2
+        }
+		relative_position_id = RUS_expand_east
+		x = 0
+		y = 2
+
+		completion_reward = {
+			516 = {
+				add_extra_state_shared_building_slots = 2
+			}
+		}
+	}

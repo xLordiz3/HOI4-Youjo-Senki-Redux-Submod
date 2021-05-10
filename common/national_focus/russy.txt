@@ -12,6 +12,7 @@ focus_tree = {
 	
 	shared_focus = RUS_1st_industry_plan
 	shared_focus = RUS_expand_east
+	shared_focus = RUS_ruralize_east
 	
 	focus = {
 		id = RUS_russy_fleet

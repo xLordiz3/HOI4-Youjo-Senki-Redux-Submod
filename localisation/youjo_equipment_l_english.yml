@@ -40,3 +40,8 @@
  ALK_mage_equipment_0_desc:0 "An experimental model invented by US Skunk Association which prioritizes stabilities yet has poor peripheral compatibility and high cost. This prototype eventually failed to be adopted."
  ALK_mage_equipment_1_desc:0 "A old model handled by US Skunk Association in April, 1926. Its performance was so-so rated by Commonwealth."
  ALK_mage_equipment_2_desc:0 "A new model handled by US Skunk Association in April, 1926. It was very famous around Commonwealth marine mages that they wanted it if at all possible. It wouldn't rust in the salty ocean breezes and its movements were very reliable."
+#Flight gear
+ mage_flight_gear:0 "Mage Flight Gear"
+ mage_flight_gear_0:0 "Mage Flight Gear"
+ mage_flight_gear_0_desc:0 "Auxilary system to enhance mage's flight ability."
+ mage_flight_gear_0_short:0 "Flight Gear"

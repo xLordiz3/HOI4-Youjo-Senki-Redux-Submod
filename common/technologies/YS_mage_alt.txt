@@ -1,0 +1,54 @@
+technologies = {
+    @1918 = 0
+    @1930 = 2
+    @1936 = 4
+    @1939 = 6
+    @1942 = 8
+    @1944 = 10
+    @1945 = 12
+    @1946 = 14
+
+    tech_mage_gear = {
+        allow = {
+            NOT = {
+                has_idea = RUS_mages_purged
+            }
+        }
+        enable_equipments = {
+            mage_flight_gear
+            mage_flight_gear_0
+        }
+
+        research_cost = 2
+        start_year = 1918
+        folder = {
+            name = mage_folder
+            position = { x = 2 y = @1918}
+        }
+
+        categories = {
+            magic_tech
+        }
+
+        ai_will_do = {
+            factor = 1
+
+            modifier = {
+                factor = 4
+                is_major = yes
+            }
+
+            modifier = {
+                factor = 10
+                should_train_mages = yes
+            }
+
+            modifier = {
+                factor = 10
+                date > "1921.1.1"
+                should_train_mages = yes
+            }
+        }
+    }
+    
+}

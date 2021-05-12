@@ -21,7 +21,7 @@ spriteTypes = {
     }
 
     SpriteType = {
-        name = "GFX_EMP_mage_flight_gear_medium"
-        textureFile = "gfx/interface/technologies/EMP_mage_flight_gear_0"
+        name = "GFX_mage_flight_gear_medium"
+        textureFile = "gfx/interface/technologies/mage_flight_gear_0.dds"
     }
 }

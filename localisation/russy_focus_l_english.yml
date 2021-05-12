@@ -422,3 +422,12 @@
  RUS_expand_east_2_3_desc:0 "We must build more in Kamchatka"
  RUS_ruralize_east_2:0 "Continued Ruralization of the East"
  RUS_ruralize_east_2_desc:0 "We shall continue to develop the eastern areas"
+ RUS_expand_east_3_1:0 "Expand Kirensk"
+ RUS_expand_east_3_1_desc:0 "We must build more in Kirensk"
+ RUS_expand_east_3_2:0 "Expand Yeniseisk"
+ RUS_expand_east_3_2_desc:0 "We shall build more in Yeniseisk
+ RUS_expand_east_3_3:0 "Expand Surgut"
+ RUS_expand_east_3_3_desc:0 "We must build more in Surgut"
+ RUS_ruralize_east_3:0 "Continueing the ruralization of the east"
+ RUS_ruralize_east_3_desc:0 "We are expanding Kirensk, Yeniseisk, and Surgut"
+ 

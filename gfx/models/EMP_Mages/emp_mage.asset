@@ -1,0 +1,4 @@
+animation = {
+    name = "infantry_idle_anim"
+    file = ""
+}

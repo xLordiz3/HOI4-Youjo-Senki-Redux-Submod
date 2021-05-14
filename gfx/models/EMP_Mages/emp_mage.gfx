@@ -1,0 +1,20 @@
+objectTypes = { 
+    pdxmesh = {
+        name = "emp_mage_mesh"
+        file = "gfx/models/emp_mages/emp_mage.mesh"
+        scale = 1
+
+        animation = { id = "idle"           type = "infantry_idle_anim"}
+        animation = { id = "move"          type = "inantry_walk_anim"}
+
+
+        meshsettings = {
+            name = "jorodoxShape"
+            index = 0
+            texture_diffuse = "infantry_diffuse.dds"
+            texture_normal = "infantry_normal.dds"
+            texture_specular = "infantry_specular.dds"
+            shader = PdxMeshAdvanced
+        }
+    }
+}

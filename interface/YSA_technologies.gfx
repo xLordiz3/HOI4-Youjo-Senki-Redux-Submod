@@ -21,7 +21,22 @@ spriteTypes = {
     }
 
     SpriteType = {
+        name = "GFX_tech_mage_flight_gear_medium"
+        textureFile = "gfx/interface/technologies/mage_flight_gear_0.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_tech_mage_flight_gear2_medium"
+        textureFile = "gfx/interface/technologies/mage_flight_gear_0.dds"
+    }
+    
+    SpriteType = {
         name = "GFX_mage_flight_gear_medium"
+        textureFile = "gfx/interface/technologies/mage_flight_gear_0.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_mage_flight_gear2_medium"
         textureFile = "gfx/interface/technologies/mage_flight_gear_0.dds"
     }
 }

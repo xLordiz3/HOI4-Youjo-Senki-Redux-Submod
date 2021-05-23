@@ -5,7 +5,7 @@
 sub_units = {
 
 	mages = {
-		sprite = infantry
+		sprite = mage
 		map_icon_category = infantry
 		special_forces = yes
 		

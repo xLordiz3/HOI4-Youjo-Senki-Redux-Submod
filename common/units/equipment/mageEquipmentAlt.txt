@@ -4,7 +4,7 @@ equipments = {
         year = 1918
 
         is_archetype = yes
-        picture = mage_flight_gear_0
+        picture = mage_flight_gear
         is_buildable = no
         type = infantry
         group_by = archetype
@@ -39,5 +39,16 @@ equipments = {
         archetype = mage_flight_gear
         priority = 05
         visual_level = 0
+    }
+
+    mage_flight_gear_1 = {
+        year = 1920
+        archetype = mage_flight_gear
+        parent = mage_flight_gear_0
+        maximum_speed = 10
+        breakthrough = 8
+        air_attack = 8
+        priority = 10
+        visual_level = 1
     }
 }

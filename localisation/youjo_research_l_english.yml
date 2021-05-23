@@ -27,5 +27,7 @@
  tech_para_mage1_desc:0 "While mages are airborne by default, they can't be expected to hold ground on their own. By combining them with paratroopers, they would become formidable airborne forces."
  tech_para_mage2_desc:0 "The versatility of mages allows them to land where paratroopers and gliders can't."
 #Additions
- tech_mage_gear:0 "Mage Flight Gear"
- tech_mage_gear_desc:0 "Auxilary equipment that improves mage's flight abilities."
+ tech_mage_flight_gear:0 "Mage Flight Gear"
+ tech_mage_flight_gear_desc:0 "Auxilary equipment that improves mage's flight abilities."
+ tech_mage_flight_gear_1:0 "Improved Mage Flight Gear"
+ tech_mage_flight_gear_1_desc:0 "Improved Auxilary equipment that improves mage's flight abilities."

@@ -8,22 +8,25 @@ technologies = {
     @1945 = 12
     @1946 = 14
 
-    tech_mage_gear = {
+    tech_mage_flight_gear = {
         allow = {
             NOT = {
                 has_idea = RUS_mages_purged
             }
         }
         enable_equipments = {
-            mage_flight_gear
             mage_flight_gear_0
+        }
+
+        path = {
+            leads_to_tech = tech_mage_flight_gear2
         }
 
         research_cost = 2
         start_year = 1918
         folder = {
             name = mage_folder
-            position = { x = 2 y = @1918}
+            position = { x = 3 y = @1918}
         }
 
         categories = {
@@ -40,6 +43,44 @@ technologies = {
 
             modifier = {
                 factor = 10
+                should_train_mages = yes
+            }
+
+            modifier = {
+                factor = 10
+                date > "1921.1.1"
+                should_train_mages = yes
+            }
+        }
+    }
+
+    tech_mage_flight_gear2 = {
+
+        enable_equipments = {
+            mage_flight_gear_1
+        }
+
+        research_cost = 2
+        start_year = 1920
+        folder = { 
+            name = mage_folder
+            position = { x = 4 y = @1936 }
+        }
+
+        categories = {
+            magic_tech
+        }
+
+        ai_will_do = {
+            factor = 1
+
+            modifier = {
+                factor = 4
+                is_major = yes
+            }
+
+            modifier = {
+                factor = 5
                 should_train_mages = yes
             }
 

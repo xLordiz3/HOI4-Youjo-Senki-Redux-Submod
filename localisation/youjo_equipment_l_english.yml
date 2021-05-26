@@ -48,3 +48,12 @@
  mage_flight_gear_1:0 "Improved Mage Flight Gear"
  mage_flight_gear_1_desc:0 "Improved Auxilary system to enhance mage's flight ability."
  mage_flight_gear_1_short:0 "Improved Flight Gear"
+#Mage CAS
+ mage_cas_equipment:0 "Mage CAS Fighters"
+ mage_cas_equipment_1:0 "Mage CAS Fighters"
+ mage_cas_equipment_1_desc:0 "Mages focused on eliminating enemy ground units from high altitudes."
+ mage_cas_equipment_1_short:0 "Mage CAS"
+ mage_cv_cas_equipment:0 "Mage Carrier CAS Fighters"
+ mage_cv_cas_equipment_1:0 "Mage Carrier CAS Fighters"
+ mage_cv_cas_equipment_1_desc:0 "Carrier based Mages attacking from high altitudes."
+ mage_cv_cas_equipment_1_short:0 "Mage Carrier CAS"

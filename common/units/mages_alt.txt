@@ -1,7 +1,3 @@
-# options for map_icon_category:
-# For land units: infantry,armored,other
-# For sea units: ship,transport,uboat
-
 sub_units = {
 
 	mages = {
@@ -72,18 +68,18 @@ sub_units = {
 			attack = 0.3
 			defence = 0.2
 		}
-		# Moved to mage techs
-		#marsh = {
-		#    attack = 0.1 
-		#	movement = 0.4
-		#}
-		#river = { 
-		#	attack = 0.2 
-		#	movement = 0.4
-		#}
-		#amphibious = { 
-		#	attack = 0.2
-		#}
+	}
+
+	mage_cas = {
+		sprite = mage
+		priority = 1
+		active = yes
+		type = { fighter cas }
+		need = {
+            mage_equipment = 1
+			mage_flight_gear = 1
+        }
+		categories = { category_cas }
 	}
 	
 }

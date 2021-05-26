@@ -1,0 +1,1274 @@
+ideas = {
+	country = {
+
+		LEG_londinium_treaty = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			picture = idea_LEG_londinium_treaty
+			
+			modifier = {
+				political_power_gain = -0.1
+				stability_factor = -0.1
+				war_support_factor = 0.2
+			}
+
+			targeted_modifier = {
+				tag = EMP
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+			}
+		}
+	
+		en_svensk_tiger = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				has_government = democratic
+			}
+
+			removal_cost = -1
+
+			picture = generic_spy_intel
+			
+			modifier = {
+				drift_defence_factor = 0.1
+				enemy_justify_war_goal_time = 0.1
+			}
+		}
+	
+		### Bond Yield ###
+		LEG_bond_yield_0 = {
+
+			picture = generic_economic_increase
+		
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+
+			}
+		}
+
+		LEG_bond_yield_1 = {
+
+			picture = chi_hyper_inflation
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = -0.05
+			}
+		}
+
+		
+		LEG_bond_yield_2 = {
+
+			picture = chi_hyper_inflation2
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.10
+				industrial_capacity_factory = -0.10
+			}
+		}
+		
+		LEG_bond_yield_3 = {
+
+			picture = chi_hyper_inflation3
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.15
+				industrial_capacity_factory = -0.15
+			}
+		}
+		
+		LEG_bond_yield_4 = {
+
+			picture = chi_hyper_inflation4
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.20
+				industrial_capacity_factory = -0.20
+			}
+		}
+
+		LEG_bond_yield_5 = {
+
+			picture = chi_hyper_inflation5
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = 0.25
+				industrial_capacity_factory = -0.25
+			}
+		}
+		
+		### Unemployment ###
+		LEG_unemployment_0 = {
+
+			picture = prc_low_popular_support
+		
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+
+			}
+		}
+
+		LEG_unemployment_1 = {
+
+			picture = prc_low_popular_support2
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.1
+				war_support_factor = -0.1
+				surrender_limit = -0.1
+			}
+		}
+
+		
+		LEG_unemployment_2 = {
+
+			picture = prc_low_popular_support3
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.2
+				war_support_factor = -0.2
+				surrender_limit = -0.2
+			}
+		}
+		
+		LEG_unemployment_3 = {
+
+			picture = SPA_recovering_from_the_civil_war
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = -0.3
+				war_support_factor = -0.3
+				surrender_limit = -0.3
+			}
+		}
+		
+		### Economy tree ###
+		
+		LEG_market_injection = {
+
+			picture = generic_foreign_capital
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_speed_buildings_factor = 0.2
+			}
+		}
+		
+		LEG_protectionism = {
+
+			picture = generic_political_support
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				trade_laws_cost_factor = -0.5
+			}
+		}
+		
+		LEG_export_focus = {
+
+			picture = can_wartime_prices_and_trade_board
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				trade_opinion_factor = 0.25
+				economy_cost_factor = -0.25
+			}
+		}
+		
+		LEG_giant_of_the_north = {
+
+			picture = generic_reserve_divisions
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.05
+				consumer_goods_factor = -0.1
+				industrial_capacity_factory = 0.05
+			}
+		}
+
+		### Political tree ###
+		LEG_minority_government = {
+
+			picture = generic_disjointed_gov
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				political_power_gain = -0.2
+			}
+		}
+		
+		LEG_private_sector_boom = {
+
+			picture = generic_goods_red_bonus
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		LEG_triumph_in_norden = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = idea_LEG_londinium_treaty
+			
+			modifier = {
+				war_support_factor = 0.2
+			}
+
+			targeted_modifier = {
+				tag = EMP
+				attack_bonus_against = 0.15
+				defense_bonus_against = 0.15
+			}
+		}
+		
+		LEG_humiliation_in_norden = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = idea_LEG_londinium_treaty
+			
+			modifier = {
+				war_support_factor = 0.2
+				stability_factor = -0.1
+				army_core_attack_factor = 0.15
+				army_core_defence_factor = 0.15
+			}
+		}
+		
+		LEG_amphibious_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = eng_preparing_the_second_front
+			
+			modifier = {
+				amphibious_invasion = 0.2
+				invasion_preparation = -0.2
+			}
+		}
+		
+		LEG_recovery_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_manpower_bonus
+			
+			modifier = {
+				army_morale_factor = 0.2
+				land_reinforce_rate = 0.2
+			}
+		}
+		
+		LEG_militarization = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = ast_volunteer_defence_corps
+			
+			modifier = {
+				training_time_factor = -0.1
+			}
+		}
+		
+		LEG_factory_output_bonus = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_central_management
+			
+			modifier = {
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+			}
+		}
+		
+		LEG_resistance_suppression = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_secret_police
+			
+			modifier = {
+				resistance_damage_to_garrison = -0.5
+				resistance_target = -0.1
+				resistance_growth = -0.25
+			}
+		}
+		
+		LEG_continental_revolution = {
+			
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = ger_the_great_red_menace
+			
+			modifier = {
+				conscription = 0.05
+				war_support_factor = 0.10
+			}
+		}
+		
+		LEG_triumphant_cause = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_victors_of_ww1
+			
+			modifier = {
+				compliance_growth = 0.3 #Grows 30% faster
+				non_core_manpower = 0.03
+			}
+		}
+		
+		LEG_foreign_business_restricted = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = eng_tackle_capitalism
+			
+			modifier = {
+				local_resources_factor = 0.1
+				foreign_subversive_activites = -0.5
+			}
+		}
+		
+		LEG_patriotic_population = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = vittoria_mutilata
+			
+			modifier = {
+				compliance_growth_on_our_occupied_states = -0.2
+				resistance_target_on_our_occupied_states = 0.1
+				resistance_growth_on_our_occupied_states = 0.2
+			}
+		}
+		
+		LEG_weapon_purchase = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_armor
+			
+			modifier = {
+				ai_license_acceptance = 50
+				license_purchase_cost = -0.9
+				license_production_speed = 0.25
+				license_tech_difference_speed = 0.75
+			}
+		}
+		
+		LEG_autonomy = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_pp_unity_bonus
+			
+			modifier = {
+				political_advisor_cost_factor = -0.25
+			}
+		}
+		
+		LEG_ended_monopoly = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_local_self_management
+			
+			modifier = {
+				aircraft_manufacturer_cost_factor = -0.25
+				materiel_manufacturer_cost_factor = -0.25
+				naval_manufacturer_cost_factor = -0.25
+				tank_manufacturer_cost_factor = -0.25
+				industrial_concern_cost_factor = -0.25
+			}
+		}
+		
+		LEG_self_management = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_local_self_management
+			
+			modifier = {
+				trade_laws_cost_factor = -0.25
+				economy_cost_factor = -0.25
+				materiel_manufacturer_cost_factor = -0.25
+				industrial_concern_cost_factor = -0.25
+			}
+		}
+		
+		LEG_sudden_strike = {
+		
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			picture = generic_intel_bonus
+			
+			modifier = {
+				planning_speed = 0.5
+			}
+		}
+		
+		### Military tree ###
+		LEG_special_forces = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = FRA_scw_intervention_nationalists_focus
+			
+			modifier = {
+				special_forces_cap = 0.05
+			}
+		}
+		
+		LEG_nco_corps = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = generic_infantry_bonus
+			
+			modifier = {
+				experience_gain_army = 0.05
+			}
+		}
+		
+		### Norden Incident - unprepared allies ###
+		
+		LEG_unprepared_for_war = {
+			allowed = {
+				always = no
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+			
+			removal_cost = -1
+
+			picture = SPR_disbanded_army
+			
+			#targeted_modifier = {
+			#	tag = EMP
+			#	attack_bonus_against = -0.2
+			#}
+		}
+	}
+
+	political_advisor = {
+
+		SWE_thorwald_bergquist = {
+
+			picture = generic_political_advisor_europe_5
+			
+			allowed = {
+				original_tag = LEG
+			}
+			
+			traits = { compassionate_gentleman }
+		}
+
+		SWE_osten_unden = {
+
+			picture = generic_political_advisor_europe_2
+
+			allowed = {
+				original_tag = LEG
+			}
+			
+			traits = { silent_workhorse }
+		}
+
+		SWE_ernst_wigforss = {
+
+			picture = generic_political_advisor_europe_3
+			
+			allowed = {
+				original_tag = LEG
+			}
+			
+			traits = { captain_of_industry }
+		}
+	}
+
+	theorist = {
+
+		SWE_helge_jung = {
+			ledger = army
+					
+					
+			allowed = {
+				original_tag = SWE
+			}
+			
+			picture = generic_army_europe_2
+			
+			research_bonus = {
+				land_doctrine = 0.10
+			}
+			
+			traits = { military_theorist }
+		}
+
+		SWE_erik_palmstierna = {
+			ledger = navy
+					
+					
+			allowed = {
+				original_tag = SWE
+			}
+			
+			picture = generic_political_advisor_europe_1
+			
+			research_bonus = {
+				naval_doctrine = 0.10
+			}
+			
+			traits = { naval_theorist }
+		}
+	}
+	# MILITARY
+	army_chief = {
+
+		SWE_olof_thornell = {
+			
+			picture = generic_army_europe_5
+			
+			allowed = {
+				original_tag = LEG
+			}
+			
+
+			
+			traits = { army_chief_old_guard }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SWE_ivar_holmquist = {
+			
+			picture = generic_army_europe_1
+			
+			allowed = {
+				original_tag = LEG
+			}
+			
+
+			
+			traits = { army_chief_organizational_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SWE_per_sylvan = {
+			
+			picture = generic_army_europe_6
+			
+			allowed = {
+				original_tag = LEG
+			}
+			
+
+			
+			traits = { army_chief_defensive_1 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SWE_oscar_nygren = {
+			
+			picture = generic_army_europe_3
+			
+			allowed = {
+				original_tag = LEG
+			}
+			
+
+			
+			traits = { army_chief_drill_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	air_chief = {
+		
+
+		SWE_bengt_nordenskiold = {
+			
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = LEG
+			}
+			
+
+			
+			traits = { air_chief_ground_support_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SWE_torsten_friis = {
+			
+			picture = generic_air_europe_3
+			
+			allowed = {
+				original_tag = LEG
+			}
+			
+
+			
+			traits = { air_chief_all_weather_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	navy_chief = {
+
+		SWE_gosta_ehrensvard = {
+			
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = LEG
+			}
+			
+
+			
+			traits = { navy_chief_commerce_raiding_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SWE_fabian_tamm = {
+			
+			picture = generic_navy_europe_1
+			
+			allowed = {
+				original_tag = LEG
+			}
+			
+
+			
+			traits = { navy_chief_reform_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SWE_charles_de_champs = {
+			
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = LEG
+			}
+			
+
+			
+			traits = { navy_chief_decisive_battle_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+	}
+
+	high_command = {
+
+		SWE_axel_rappe = {
+			ledger = army
+			
+			picture = generic_army_europe_1
+			
+			allowed = {
+				original_tag = LEG
+			}
+			
+
+			
+			traits = { army_artillery_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	
+		SWE_archibald_douglas = {
+			ledger = army
+			
+			picture = generic_army_europe_2
+
+			allowed = {
+				original_tag = LEG
+			}
+			
+
+			
+			traits = { army_infantry_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SWE_axel_ljungdahl = {
+			ledger = air
+			
+			picture = generic_air_europe_2
+			
+			allowed = {
+				original_tag = LEG
+			}
+			
+
+			
+			traits = { air_bomber_interception_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+
+		SWE_helge_stromback = {
+			ledger = navy
+			
+			picture = generic_navy_europe_2
+			
+			allowed = {
+				original_tag = LEG
+			}
+			
+
+			
+			traits = { navy_fleet_logistics_2 }
+			
+			ai_will_do = {
+				factor = 1
+			}
+		}
+	}
+
+	tank_manufacturer = { 
+		
+		designer = yes
+		
+		landsverk = {
+			
+			picture = generic_tank_manufacturer_2
+
+			
+			allowed = {
+				original_tag = LEG
+			}
+			
+			available = {
+				has_completed_focus = LEG_tender_system
+			}
+			
+			research_bonus = {
+				armor = 0.15
+			}
+			
+			traits = { tank_manufacturer }
+			
+			modifier = {
+				# notable tanks L-120 and L-60, lighter tanks as well as the medium tank Stridsvagn m/42, that was mobile and well protected.
+			}
+		}
+
+	}
+	
+	naval_manufacturer = { 
+			
+		designer = yes
+		
+		marinvarkstaderna = { #Karlskrona
+			
+			picture = generic_naval_manufacturer_1
+
+			
+			allowed = {
+				original_tag = LEG
+			}
+			
+			available = {
+				has_completed_focus = LEG_tender_system
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			equipment_bonus = {
+				# mer research
+			}
+			
+			traits = { coastal_defence_naval_manufacturer }
+			
+			modifier = {
+			}
+		}
+
+		gotaverken = {
+			
+			picture = generic_naval_manufacturer_2
+
+			
+			allowed = {
+				original_tag = LEG
+			}
+			
+			available = {
+				has_completed_focus = LEG_tender_system
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			
+			equipment_bonus = {
+				# worlds biggest shipyard by launched gross tonnes
+			}
+			
+			traits = { atlantic_fleet_naval_manufacturer }
+			
+			modifier = {
+			}
+		}
+
+		kockums = {
+			
+			picture = generic_naval_manufacturer_3
+
+			
+			allowed = {
+				original_tag = LEG
+			}
+			
+			available = {
+				has_completed_focus = LEG_tender_system
+			}
+			
+			research_bonus = {
+				naval_equipment = 0.15
+			}
+			 
+			equipment_bonus = {
+				# submarines and battleships
+			}
+			
+			traits = { raiding_fleet_naval_manufacturer }
+			
+			modifier = {
+			}
+		}
+	}
+
+
+	materiel_manufacturer = {
+		
+		designer = yes
+	
+		bofors = {
+			
+			picture = generic_artillery_manufacturer_1
+
+			
+			allowed = {
+				original_tag = LEG
+			}
+			
+			available = {
+				has_completed_focus = LEG_tender_system
+			}
+			
+			research_bonus = {
+				artillery = 0.15
+			}
+			
+			equipment_bonus = {
+				artillery = {
+					reliability = 0.20
+				}
+			}
+			
+			traits = { artillery_manufacturer }
+			
+			modifier = {
+			}
+		}
+	
+		husqvarna = {
+			
+			picture = generic_infantry_equipment_manufacturer_2
+
+			
+			allowed = {
+				original_tag = LEG
+			}
+			
+			available = {
+				has_completed_focus = LEG_tender_system
+			}
+			
+			research_bonus = {
+				infantry_weapons = 0.15
+			}
+			
+			equipment_bonus = {
+				# rifles and pistols
+			}
+			
+			traits = { infantry_equipment_manufacturer }
+			
+			modifier = {
+			}
+		}
+		scania = {
+			
+
+			
+			allowed = {
+				original_tag = LEG
+			}
+			
+			available = {
+				has_completed_focus = LEG_tender_system
+			}
+			
+			research_bonus = {
+				motorized_equipment = 0.15
+			}
+			
+			traits = { motorized_equipment_manufacturer }
+			
+			modifier = {
+				# more info
+			}
+		}
+		
+	}
+}

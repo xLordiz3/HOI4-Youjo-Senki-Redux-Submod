@@ -91,5 +91,78 @@ technologies = {
             }
         }
     }
+
+    tech_mage_cas_equipment = {
+        enable_equipments = {
+            mage_cas_equipment_1
+        }
+
+        path = {
+            leads_to_tech = tech_mage_cv_cas_equipment
+        }
+
+        research_cost = 2
+        start_year = 1922
+        folder = {
+            name = mage_folder
+            position = { x = 6 y = @1918 }
+        }
+
+        categories = {
+            magic_tech
+        }
+
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 4
+                is_major = yes
+            }
+
+            modifier = {
+                factor = 5
+                should_train_mages = yes
+            }
+            modifier = {
+                factor = 10
+                date > "1922.1.1"
+                should_train_mages = yes
+            }
+        }
+    }
     
+    tech_mage_cv_cas_equipment = {
+        enable_equipments = {
+            mage_cv_cas_equipment_1
+        }
+
+        research_cost = 2
+        start_year = 1922
+        folder = {
+            name = mage_folder
+            position = { x = 6 y = @1936}
+        }
+
+        categories = {
+            magic_tech
+        }
+
+        ai_will_do = {
+            factor = 1
+            modifier = {
+                factor = 4
+                is_major = yes
+            }
+
+            modifier = {
+                factor = 5
+                should_train_mages = yes
+            }
+            modifier = {
+                factor = 10
+                date > "1922.1.1"
+                should_train_mages = yes
+            }
+        }
+    }
 }

@@ -1,0 +1,5 @@
+
+graphical_culture = republic_gfx
+graphical_culture_2d = western_european_2d	 
+
+color = { 9  53  139 }

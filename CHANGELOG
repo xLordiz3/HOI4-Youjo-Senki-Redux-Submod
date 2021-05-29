@@ -1,3 +1,11 @@
+# 5-29-21
+ - Added graphical cultures for Empire, Republic, and Legadonia
+    - Fixed Republic model not showing up
+ - Added Legadonia orb
+    - Need a better picture
+ - Repulic Model and Idle animation
+    - Need to fix multiple rifles being attached on Idle animation
+
 # 5-26-21
  - Working on adding mage CAS and carrier CAS
  - Adding Republic mage model

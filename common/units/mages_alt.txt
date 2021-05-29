@@ -44,7 +44,6 @@ sub_units = {
 			infantry_equipment
 			mage_equipment
 			mage_flight_gear
-			mage_flight_gear_0
 		}
 
 		need = {
@@ -70,16 +69,16 @@ sub_units = {
 		}
 	}
 
-	mage_cas = {
-		sprite = mage
-		priority = 1
-		active = yes
-		type = { fighter cas }
-		need = {
-            mage_equipment = 1
-			mage_flight_gear = 1
-        }
-		categories = { category_cas }
-	}
+	#mage_cas = {
+	#	sprite = mage
+	#	priority = 1
+	#	active = yes
+	#	type = { fighter cas }
+	#	need = {
+    #        mage_equipment = 1
+	#		mage_flight_gear = 1
+    #    }
+	#	categories = { category_cas }
+	#}
 	
 }

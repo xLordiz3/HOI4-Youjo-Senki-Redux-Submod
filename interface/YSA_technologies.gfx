@@ -39,4 +39,24 @@ spriteTypes = {
         name = "GFX_mage_flight_gear2_medium"
         textureFile = "gfx/interface/technologies/mage_flight_gear_0.dds"
     }
+
+    SpriteType = {
+        name = "GFX_LEG_tech_orb_medium"
+        textureFile = "gfx/interface/technologies/LEG_mage_equipment_0.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_LEG_tech_orb2_medium"
+        textureFile = "gfx/interface/technologies/LEG_mage_equipment_0.dds"
+    }
+    SpriteType = {
+        name = "GFX_LEG_tech_orb3_medium"
+        textureFile = "gfx/interface/technologies/LEG_mage_equipment_0.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_LEG_tech_orb4_medium"
+        textureFile = "gfx/interface/technologies/LEG_mage_equipment_0.dds"
+    }
+    
 }

@@ -1,0 +1,5 @@
+
+graphical_culture = empire_gfx
+graphical_culture_2d = western_european_2d	 
+
+color = { 149  0  14 }

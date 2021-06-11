@@ -1,9 +1,16 @@
+# 6-10-21
+ - Added Republic Mage idle animation
+ - Added Empire Mage idle and movement animations
+ - Added Mondragon M1908 Rifle for Empire mages
+ - Started adding Supreme High Command advisor slots
+ - Placeholder USA animations for EMP mages shooting
+
 # 5-29-21
  - Added graphical cultures for Empire, Republic, and Legadonia
     - Fixed Republic model not showing up
  - Added Legadonia orb
     - Need a better picture
- - Repulic Model and Idle animation
+ - Republic Model and Idle animation
     - Need to fix multiple rifles being attached on Idle animation
 
 # 5-26-21

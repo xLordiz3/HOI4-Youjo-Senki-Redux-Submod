@@ -171,3 +171,23 @@ animation = {
 	name = "REP_mage_idle_rifle_animation"
 	file = "infantry/REP_mage_idle_rifle.anim"
 }
+
+animation = {
+	name = "EMP_mage_idle_rifle_animation"
+	file = "infantry/EMP_mage_idle_rifle.anim"
+}
+
+animation = {
+	name = "EMP_mage_moving_rifle_animation"
+	file = "infantry/EMP_mage_moving_rifle.anim"
+}
+
+animation = {
+	name = "USA_infantry_attack_stand_rifle_animation"
+	file = "infantry/USA_infantry_attack_stand_rifle.anim"
+}
+
+animation = {
+	name = "EMP_mage_charge_rifle_shoot_animation"
+	file = "infantry/EMP_mage_charge_rifle_shoot.anim"
+}

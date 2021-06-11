@@ -20,6 +20,7 @@ technologies = {
 
         path = {
             leads_to_tech = tech_mage_flight_gear2
+            research_cost_coeff = 1
         }
 
         research_cost = 2
@@ -99,6 +100,7 @@ technologies = {
 
         path = {
             leads_to_tech = tech_mage_cv_cas_equipment
+            research_cost_coeff = 1
         }
 
         research_cost = 2

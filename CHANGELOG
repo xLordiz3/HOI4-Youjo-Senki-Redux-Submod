@@ -1,3 +1,19 @@
+# 6-18-21
+ - Models and Textures
+    - Added Republican Mage rifle, Fusil Automatique Modèle 1917 and texturing
+    - Added Republican Mage texturing
+    - Updated Republican Mage model
+ - Animations
+    - Added Republic Mage moving animation
+    - Added Republic Mage shooting animation
+    - Updated Republic Mage idle animation
+ - Started China focus tree
+
+# 6-11-21
+ - Removed EMP mage tubing to fix rubberbanding
+ - Added EMP mage charging shoot animation
+ - Added US shooting as placeholder, might not replace
+
 # 6-10-21
  - Added Republic Mage idle animation
  - Added Empire Mage idle and movement animations

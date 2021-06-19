@@ -173,6 +173,16 @@ animation = {
 }
 
 animation = {
+	name = "REP_mage_shoot_rifle_animation"
+	file = "infantry/REP_mage_shoot_rifle.anim"
+}
+
+animation = {
+	name = "REP_mage_moving_rifle_animation"
+	file = "infantry/REP_mage_moving_rifle.anim"
+}
+
+animation = {
 	name = "EMP_mage_idle_rifle_animation"
 	file = "infantry/EMP_mage_idle_rifle.anim"
 }

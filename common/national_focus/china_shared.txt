@@ -1,0 +1,36 @@
+
+	shared_focus = {
+		id = CHI_expand_wastelands_1
+		text = CHI_expand_wastelands_1
+		icon = GFX_goal_generic_construction2
+		cost = 4.00
+		x = 30
+		y = 0
+
+		completion_reward = {
+			756 = {
+				add_extra_state_shared_building_slots = 2
+				set_state_category = "pastoral"
+			}
+		}
+	}
+
+	shared_focus = {
+		id = CHI_expand_wastelands_2
+		text = CHI_expand_wastelands_2
+		icon = GFX_goal_generic_construction2
+		cost = 4.00
+		prerequisite = {
+			focus = CHI_expand_wastelands_1
+		}
+		relative_position_id = CHI_expand_wastelands_1
+		x = 0
+		y = 1
+
+		completion_reward = {
+			287 = {
+				add_extra_state_shared_building_slots = 2
+				set_state_category = "pastoral"
+			}
+		}
+	}

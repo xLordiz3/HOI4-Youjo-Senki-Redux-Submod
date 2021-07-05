@@ -130,7 +130,8 @@ equipments = {
         air_ground_attack = 0.9
         naval_strike_attack = 3.1
         naval_strike_targetting = 12
-
+        carrier_size = 0.05
+        carrier_capable= yes
         build_cost_ic = 22
         resources = { 
             aluminium = 2
@@ -145,6 +146,7 @@ equipments = {
     mage_cas_equipment_1 = {
         year = 1925
         archetype = mage_cas_equipment
+        parent = mage_cas_equipment
         priority = 40
 
         air_range = 600
@@ -160,6 +162,7 @@ equipments = {
         year = 1925
 
 		archetype = mage_cv_cas_equipment
+        parent = mage_cv_cas_equipment
 		carrier_capable = yes
 		priority = 50
 		

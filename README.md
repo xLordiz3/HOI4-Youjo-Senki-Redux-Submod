@@ -2,4 +2,4 @@ Changes and additions to the [Youjo Senki Redux](https://steamcommunity.com/shar
 
 Updated till:
  - YSR 3.2.1
- - HOI4 1.10.4
+ - HOI4 1.10.7

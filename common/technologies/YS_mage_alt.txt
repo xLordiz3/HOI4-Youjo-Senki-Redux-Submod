@@ -167,4 +167,8 @@ technologies = {
             }
         }
     }
+
+    tech_mage_weapon ={
+        
+    }
 }

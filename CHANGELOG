@@ -1,3 +1,13 @@
+# 7-6-21
+ - Mage CAS
+    - Fixed dissapearing when assigned to an airport
+    - Added interface image
+    - Added model; scaling needs to be tested, might be too big
+    - Added localization and air unit files
+ - Mage Weapons
+    - Added research slots
+    - Added some localization
+
 # 7-5-21
  - Added different Emp mage mesh and texture
  - EMP infantry uses mp40 mesh instead of generic

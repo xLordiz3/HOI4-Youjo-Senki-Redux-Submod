@@ -168,7 +168,123 @@ technologies = {
         }
     }
 
-    tech_mage_weapon ={
+    tech_mage_weapons = {
+        enable_equipments = {
+            mage_weapons_0
+        }
+
+        path = {
+            leads_to_tech = tech_mage_weapons2
+            research_cost_coeff = 1
+        }
+
+        research_cost = 2
+        start_year = 1920
+        folder = {
+            name = mage_folder
+            position = { x = -6 y = @1918 }
+        }
+
+        categories = {
+            magic_tech
+        }
         
+        ai_will_do = { 
+            factor = 1
+            modifier = {
+                factor = 3
+                is_major = yes
+            }
+
+            modifier = {
+                factor = 4
+                should_train_mages = yes
+            }
+            modifier = {
+                factor = 5
+                date > "1922.1.1"
+                should_train_mages = yes
+            }
+        }
+    }
+
+    tech_mage_weapons2 = {
+        enable_equipments = {
+            mage_weapons_1
+        }
+
+        path = {
+            leads_to_tech = tech_mage_weapons3
+            research_cost_coeff = 1
+        }
+
+        research_cost = 2
+        start_year = 1923
+        folder = {
+            name = mage_folder
+            position = { x = -6 y = @1930 }
+        }
+
+        categories = {
+            magic_tech
+        }
+        
+        ai_will_do = { 
+            factor = 1
+            modifier = {
+                factor = 3
+                is_major = yes
+            }
+
+            modifier = {
+                factor = 4
+                should_train_mages = yes
+            }
+            modifier = {
+                factor = 5
+                date > "1922.1.1"
+                should_train_mages = yes
+            }
+        }
+    }
+
+    tech_mage_weapons3 = {
+        enable_equipments = {
+            mage_weapons_2
+        }
+
+        path = {
+            leads_to_tech = tech_mage_weapons3
+            research_cost_coeff = 1
+        }
+
+        research_cost = 2
+        start_year = 1924
+        folder = {
+            name = mage_folder
+            position = { x = -6 y = @1936 }
+        }
+
+        categories = {
+            magic_tech
+        }
+        
+        ai_will_do = { 
+            factor = 1
+            modifier = {
+                factor = 3
+                is_major = yes
+            }
+
+            modifier = {
+                factor = 4
+                should_train_mages = yes
+            }
+            modifier = {
+                factor = 5
+                date > "1922.1.1"
+                should_train_mages = yes
+            }
+        }
     }
 }

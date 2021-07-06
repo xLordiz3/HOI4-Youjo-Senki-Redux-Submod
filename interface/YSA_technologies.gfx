@@ -59,4 +59,13 @@ spriteTypes = {
         textureFile = "gfx/interface/technologies/LEG_mage_equipment_0.dds"
     }
     
+    SpriteType = {
+        name = "GFX_mage_cas_equipment_medium"
+        textureFile = "gfx/interface/technologies/mage_cas_equipment_0.dds"
+    }
+
+    SpriteType = {
+        name = "GFX_mage_cv_cas_equipment_medium"
+        textureFile = "gfx/interface/technologies/mage_cv_cas_equipment_0.dds"
+    }
 }

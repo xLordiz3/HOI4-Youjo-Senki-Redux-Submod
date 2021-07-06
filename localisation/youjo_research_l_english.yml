@@ -39,3 +39,9 @@
  tech_mage_cv_cas_equipment_1:0 "Mage Carrier CAS Fighters"
  tech_mage_cv_cas_equipment_1_desc:0 "Carrier based Mages attacking from high altitudes."
  tech_mage_cv_cas_equipment_1_short:0 "Mage Carrier CAS"
+ tech_mage_weapons:0 "Mage Rifle"
+ tech_mage_weapons_desc:0 "Mages need better equipment than the standard infantry."
+ tech_mage_weapons2:0 "Improved Mage Rifle"
+ tech_mage_weapons2_desc:0 "Increasing the amount of firepower disposable to our mages will increase their combat effectiveness."
+ tech_mage_weapons3:0 "Advanced Mage Rifle"
+ 

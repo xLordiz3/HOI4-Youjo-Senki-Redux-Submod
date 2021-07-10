@@ -1,5 +1,7 @@
 objectTypes = {
     
+    # Empire Infantry
+
     pdxmesh = {
         name = "EMP_infantry_mg_mesh"
         file = "gfx/models/units/GER_infantry.mesh"
@@ -35,6 +37,12 @@ objectTypes = {
     pdxmesh = {
         name = "sandbag_mesh"
         file = "gfx/models/units/sandbag.mesh"
+    }
+
+    pdxmesh = {
+        name = "EMP_infantry_weapon_smg_mesh"
+        file = "gfx/models/YSA/infantry/EMP_infantry_weapon_mp18_smg.mesh"
+        scale = 0.9
     }
 
     pdxmesh = {

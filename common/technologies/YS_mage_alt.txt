@@ -182,7 +182,7 @@ technologies = {
         start_year = 1920
         folder = {
             name = mage_folder
-            position = { x = -6 y = @1918 }
+            position = { x = -12 y = @1918 }
         }
 
         categories = {
@@ -222,7 +222,7 @@ technologies = {
         start_year = 1923
         folder = {
             name = mage_folder
-            position = { x = -6 y = @1930 }
+            position = { x = -12 y = @1930 }
         }
 
         categories = {
@@ -253,16 +253,16 @@ technologies = {
             mage_weapons_2
         }
 
-        path = {
-            leads_to_tech = tech_mage_weapons3
-            research_cost_coeff = 1
-        }
+        #path = {
+        #    leads_to_tech = tech_mage_weapons3
+        #    research_cost_coeff = 1
+        #}
 
         research_cost = 2
         start_year = 1924
         folder = {
             name = mage_folder
-            position = { x = -6 y = @1936 }
+            position = { x = -12 y = @1936 }
         }
 
         categories = {
@@ -285,6 +285,44 @@ technologies = {
                 date > "1922.1.1"
                 should_train_mages = yes
             }
+        }
+    }
+
+    tech_mage_tactics = {
+        path = {
+            leads_to_tech = tech_mage_tactics_sub_launch
+            research_cost_coeff = 1
+        }
+        research_cost = 1
+        start_year = 1920
+        folder = {
+            name = mage_folder
+            position = { x = -8 y = @1918 }
+        }
+        categories = {
+            magic_tech
+        }
+        ai_will_do = {
+            factor = 1
+        }
+    }
+    tech_mage_tactics_sub_launch = {
+        mages = {
+            amphibious = {
+                attack = 0.15
+            }
+        }
+        research_cost = 1
+        folder = {
+            name = mage_folder
+            position = { x = -8 y = @1930 }
+        }
+        categories = {
+            magic_tech
+        }
+
+        ai_will_do = {
+            factor = 1
         }
     }
 }

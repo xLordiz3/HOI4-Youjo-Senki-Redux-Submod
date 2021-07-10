@@ -41,13 +41,13 @@ sub_units = {
 		transport = mage_equipment
 
 		essential = {
-			infantry_equipment
+			mage_weapons
 			mage_equipment
 			mage_flight_gear
 		}
 
 		need = {
-			infantry_equipment = 100
+			mage_weapons = 100
 			mage_equipment = 36
 			mage_flight_gear = 36
 		}

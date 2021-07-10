@@ -5,15 +5,15 @@ sub_units = {
 		active = yes
 		type = { cas }
 		need = { mage_cas_equipment_1 = 1 }
-		category = { category_cas }
+		categories = { category_cas }
 	}
 
 	mage_cv_cas = {
 		sprite = mage
 		priority = 3
-		active = yes
+		active = no
 		type = { cas }
 		need = { mage_cv_cas_equipment_1 = 1 }
-		category = { category_cas }
+		categories = { category_cas }
 	}
 }

@@ -42,6 +42,7 @@ set_technology = {
 	tech_orb = 1
 	tech_mage_flight_gear = 1
 	tech_mage_cas_equipment = 1
+	tech_mage_weapons = 1
 }
 if = {
 	limit = {

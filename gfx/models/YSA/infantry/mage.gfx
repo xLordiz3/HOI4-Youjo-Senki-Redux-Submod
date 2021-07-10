@@ -1,10 +1,26 @@
 objectTypes = { 
 
+	# EMP Weapons
+
 	pdxmesh = {
 		name = "EMP_mage_rifle_mesh"
 		file = "gfx/models/YSA/infantry/EMP_mage_weapon_m1908_rifle.mesh"
 		scale = 0.9
 	}
+
+	pdxmesh = {
+		name = "EMP_mage_smg_mesh"
+		file = "gfx/models/YSA/infantry/EMP_mage_weapon_SIG_smg.mesh"
+		scale = 0.8
+	}
+
+	pdxmesh = {
+		name = "EMP_mage_mg_mesh"
+		file = "gfx/models/YSA/infantry/EMP_mage_weapon_fg_mg.mesh"
+	}
+
+
+	# REP Weapons
 
 	pdxmesh = {
 		name = "REP_mage_rifle_mesh"
@@ -18,6 +34,9 @@ objectTypes = {
             shader = PdxMeshAdvanced
 		}
 	}
+
+
+	# Mages
 
     pdxmesh = {
         name = "mage_mesh"

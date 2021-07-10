@@ -39,6 +39,7 @@ equipments = {
         archetype = mage_flight_gear
         priority = 05
         visual_level = 0
+        is_convertable = yes
     }
 
     mage_flight_gear_1 = {
@@ -50,6 +51,55 @@ equipments = {
         air_attack = 8
         priority = 10
         visual_level = 1
+    }
+
+    mage_weapons = {
+        year = 1920
+        is_archetype = yes
+        picture = mage_weapons_0
+        is_buildable = no
+        type = infantry
+        group_by = archetype
+        interface_category = interface_category_land
+        reliability = 0.9
+        breakthrough = 3
+        soft_attack = 4
+        hard_attack = 2
+        ap_attack = 1
+        air_attack = 1.5
+
+        build_cost_ic = 0.6
+        resources = {
+            steel = 4
+        }
+
+    }
+
+    mage_weapons_0 = {
+        archetype = mage_weapons
+        priority = 05
+        visual_level = 1
+        is_convertable = yes
+    }
+
+    mage_weapons_1 = {
+        archetype = mage_weapons
+        parent = mage_weapons_0
+        soft_attack = 6
+        hard_attack = 4
+        ap_attack = 2
+        air_attack = 3
+        build_cost_ic = 0.68
+    }
+
+    mage_weapons_2 = {
+        archetype = mage_weapons
+        parent = mage_weapons_1
+        soft_attack = 8
+        hard_attack = 6
+        ap_attack = 4
+        air_attack = 4.5
+        build_cost_ic = 0.76
     }
 
     mage_cas_equipment = {
